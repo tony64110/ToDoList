@@ -1,0 +1,45 @@
+#task, #add {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 36, 196);
+    gap: 10px;
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+li{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+li:hover{
+    background: rgb(247, 245, 247);
+}
+
+
+
+button, li {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
